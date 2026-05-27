@@ -1,0 +1,43 @@
+/* .container p { 
+    color: blue; 
+    font-weight: bold; 
+} */
+
+/* .container > p { 
+    border-bottom: 2px solid black; 
+} */
+
+/* .container + p { 
+    color: gray; 
+    font-style: italic; 
+} */
+
+.destaque {
+    background-color: #ecf0f1;
+    width: 200px;
+    padding: 20px;
+    /* Distância interna */
+    border: 5px solid #2980b9;
+    /* A "moldura" */
+    margin: 15px;
+    /* Distância de outros elementos */
+}
+
+.container {
+    width: 300px;
+    padding: 50px;
+    border: 10px solid black;
+    /* Tamanho real na tela: 420px (300 + 100 de padding + 20 de borda) */
+}
+
+* {
+    box-sizing: border-box;
+    /* OBRIGATÓRIO EM PROJETOS REAIS */
+}
+
+.container {
+    width: 300px;
+    padding: 50px;
+    border: 10px solid black;
+    /* Tamanho real na tela: 300px exatos. */
+}

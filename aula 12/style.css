@@ -1,0 +1,12 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 163, 163);
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
